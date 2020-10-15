@@ -1,0 +1,97 @@
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+
+.Vcenter{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 38%;
+}
+
+.description {
+    height: 150px;
+    width: 400px;
+    float: right;
+}
+
+.imagee {
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+
+.contenu {
+    width: 100%;
+	height: 400px;
+}
+
+.image{
+	width:50px;
+}
+
+.imaget2{
+	width:80px;
+}
+
+.image3{
+	border: 3px solid;
+	border-color: black;
+	width: 800px;
+}
+
+.image4{
+	width: 350px;
+	height: 350px;
+}
+
+.image5{
+	width: 100%;
+}
+
+.div{
+	border-color: black;
+	border: 3px solid;
+}
+
+body {
+	background-image: url("https://i.redd.it/ow0q8fjncpv31.png");
+	background-size: 100%;
+	margin : 0;
+	background-repeat: round;
+}
+
+.bloc .bloc{
+    background: #707070;
+    height:3650px;
+    opacity: 1;
+    top: 0;
+	width: 100%;
+	border-top: 0;
+	padding: 0 24px;
+	width: 850px;
+	border: 1px solid #333333;
+    margin: 0 auto;
+	position: relative;
+	z-index: 3;
+}
+
+.bandeau {
+	width:100%;
+	height:20px;
+}
+
+.bandeau2 {
+	width:100%;
+	height:49px;
+	background-color:rgb(136, 13, 23);
+}

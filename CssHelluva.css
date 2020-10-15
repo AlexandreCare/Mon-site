@@ -1,0 +1,89 @@
+.image{
+	width:50px;
+}
+
+.imaget2{
+	width:80px;
+}
+
+.image3{
+	border: 3px solid;
+	border-color: black;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+
+.description {
+    height: 150px;
+    width: 400px;
+    float: right;
+}
+
+.imagee {
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+
+.contenu {
+    width: 100%;
+	height: 20%;
+}
+
+body {
+	background-image: url("https://cdnb.artstation.com/p/assets/images/images/022/526/749/large/kiira-onew-helluva-bg-22-23-24-27.jpg?1575754981");
+	background-size: cover;
+	margin : 0;
+	font-family: cursive;
+}
+
+.bloc .bloc{
+    background: #707070;
+    opacity: 1;
+    top: 0;
+	width: 100%;
+	border-top: 0;
+	padding: 0 24px;
+	width: 850px;
+	border: 1px solid #333333;
+    margin: 0 auto;
+	position: relative;
+	z-index: 3;
+}
+
+.image4{
+	width: 100%;
+}
+
+.bouton{
+	background-color: rgb(141, 5, 5);
+	border: none;
+	color: black;
+	padding: 15px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	border-radius: 2rem;
+}
+
+.bandeau {
+	width:100%;
+	height:20px;
+}
+
+.bandeau2 {
+	width:100%;
+	height:49px;
+	background-color:rgb(136, 13, 23);
+}
