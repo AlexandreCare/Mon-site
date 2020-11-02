@@ -43,6 +43,7 @@
 body {
 	background-image: url("https://cdnb.artstation.com/p/assets/images/images/022/526/749/large/kiira-onew-helluva-bg-22-23-24-27.jpg?1575754981");
 	background-size: cover;
+	background-attachment: fixed;
 	margin : 0;
 	font-family: cursive;
 }

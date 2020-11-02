@@ -56,3 +56,13 @@ body {
 	border: 0.2cm solid;
 	border-color: black;
 }
+
+@media screen and (max-width: 640px) {
+	#menu, #footer, aside {
+	  display:none;
+	}
+	body {
+	  font-size:120%;
+	  color:black;
+	}
+  }

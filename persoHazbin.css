@@ -64,10 +64,11 @@
 }
 
 body {
-	background-image: url("https://i.redd.it/ow0q8fjncpv31.png");
-	background-size: 100%;
+	background-image: url("https://i.pinimg.com/originals/7c/26/99/7c2699a0dce31ec11dc47ddbf1f9e496.png");
+	background-size: cover;
+	background-attachment: fixed;
 	margin : 0;
-	background-repeat: round;
+	background-color: black;
 }
 
 .bloc .bloc{
@@ -95,3 +96,13 @@ body {
 	height:49px;
 	background-color:rgb(136, 13, 23);
 }
+
+@media screen and (max-width: 640px) {
+	#menu, #footer, aside {
+	  display:none;
+	}
+	body {
+	  font-size:120%;
+	  color:black;
+	}
+  }

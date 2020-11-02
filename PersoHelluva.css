@@ -64,10 +64,11 @@
 }
 
 body {
-	background-image: url("https://vignette.wikia.nocookie.net/hazbinhotel/images/8/8b/Helluva_Boss_poster.jpg/revision/latest?cb=20191223222043");
+	background-image: url("https://cdna.artstation.com/p/assets/images/images/022/526/772/large/kiira-onew-helluva-bg-89.jpg?1575755055");
+	background-attachment: fixed;
 	background-size: 100%;
 	margin : 0;
-	background-repeat: round;
+	
 }
 
 .bloc .bloc{
@@ -95,3 +96,13 @@ body {
 	height:49px;
 	background-color:rgb(136, 13, 23);
 }
+
+@media screen and (max-width: 640px) {
+	#menu, #footer, aside {
+	  display:none;
+	}
+	body {
+	  font-size:120%;
+	  color:black;
+	}
+  }
